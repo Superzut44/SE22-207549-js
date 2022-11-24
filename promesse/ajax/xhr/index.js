@@ -3,7 +3,6 @@
 const url = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0";
 const target = document.getElementById('pokemons');
 
-// setTimeout(getPokemons, 3000);
 getPokemons();
 
 function getPokemons()
