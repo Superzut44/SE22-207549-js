@@ -1,0 +1,4 @@
+Slug :              ceci-est-une-chaine-ecrite-en-slug 
+Snake:              ceci_est_une_chaine_ecrite_en_snakecase
+CamelCase:          ceciEstUneChaineEcriteEnCamelCase
+UpperCamelCase:     CeciEstUneChaineEcriteEnUpperCamelCase
