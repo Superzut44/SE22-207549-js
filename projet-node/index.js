@@ -23,11 +23,9 @@ const port = 3000;
 // App routings
 // --
 
-// app.get('/', (request, response) => {
-//     response.send('Hello There !!');
-// });
-
 app.use( require('./controllers/homepage') );
+app.use( require('./controllers/contact') );
+app.use( require('./controllers/terms') );
 
 
 
