@@ -8,7 +8,8 @@ const router = express.Router();
 // router.get('URL PATH', CONTROLLER FUNCTION);
 
 router.get('/terms', (request, response) => {
-    response.send('Hello Terms of use !!');
+    // response.send('Hello Terms of use !!');
+    response.render('terms');
 });
 
 
