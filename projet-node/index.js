@@ -1,3 +1,9 @@
+// Import du module PATH de node
+const path = require('path');
+
+// Import du parser EJS (Embedded JavaScript Template)
+const ejs = require('ejs');
+
 
 // Import de la class Express
 const express = require('express');
@@ -7,16 +13,24 @@ const app = express();
 
 // Definition du Port du serveur
 const port = 3000;
-
-
-
+// const guessPort = require('./utils/port');
+// const port = guessPort();
 
 
 
 // App settings
 // --
 
+// Define the "views" directory
+app.set('views', path.join(__dirname, "views"));
 
+
+// Define the HTML engine
+app.set('view engine', "html");
+app.engine('html', ejs.__express);
+
+
+// Add the access to the "public" directory
 
 
 

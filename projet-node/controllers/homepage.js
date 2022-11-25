@@ -8,7 +8,15 @@ const router = express.Router();
 // router.get('URL PATH', CONTROLLER FUNCTION);
 
 router.get('/', (request, response) => {
-    response.send('Hello Homepage !!');
+    // response.send('Hello Homepage !!');
+
+
+    const fruits = ['Pommes', 'Poires', 'Bananes'];
+
+    response.render('homepage', {
+        fruits: fruits
+    });
+
 });
 
 
