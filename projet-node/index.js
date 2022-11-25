@@ -31,7 +31,7 @@ app.engine('html', ejs.__express);
 
 
 // Add the access to the "public" directory
-
+app.use( express.static( path.join( __dirname, "public") ) );
 
 
 // App routings

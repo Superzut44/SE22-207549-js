@@ -13,6 +13,7 @@ router.get('/', (request, response) => {
     const fruits = ['Pommes', 'Poires', 'Bananes'];
 
     response.render('homepage', {
+        page: "home",
         fruits: fruits
     });
 

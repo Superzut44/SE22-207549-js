@@ -10,7 +10,9 @@ const router = express.Router();
 router.get('/contact', (request, response) => {
     // response.send('Hello Contact !!');
 
-    response.render('contact');
+    response.render('contact',{
+        page: "contact",
+    });
 });
 
 

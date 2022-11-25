@@ -9,7 +9,9 @@ const router = express.Router();
 
 router.get('/terms', (request, response) => {
     // response.send('Hello Terms of use !!');
-    response.render('terms');
+    response.render('terms',{
+        page: "terms",
+    });
 });
 
 
