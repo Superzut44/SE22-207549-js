@@ -29,11 +29,11 @@ console.log( 'Key 0 : ', key );
 console.log( '' );
 
 // Remove specific item
-storage.removeItem( 'firstname' );
-console.log( '' );
+// storage.removeItem( 'firstname' );
+// console.log( '' );
 
-// Remove all items
-// storage.clear();
+// // Remove all items
+// // storage.clear();
 
 
 
