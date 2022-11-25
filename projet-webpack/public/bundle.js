@@ -1,1 +1,1 @@
-console.log("Hello bundle js");
+(()=>{var r={56:(r,t)=>{t.myVar="abc",t.myFnc=function(r){return r.toUpperCase()}}},t={};function e(n){var o=t[n];if(void 0!==o)return o.exports;var a=t[n]={exports:{}};return r[n](a,a.exports,e),a.exports}(()=>{const r=e(56);alert(`Hello ${r.myFnc("John")}`)})()})();
