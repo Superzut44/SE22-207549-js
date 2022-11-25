@@ -1,1 +1,1 @@
-alert('Hello JS from Front');
+// alert('Hello JS from Front');

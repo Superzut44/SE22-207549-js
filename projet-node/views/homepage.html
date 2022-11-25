@@ -13,6 +13,13 @@
         <% } %>
     </ul>
 
+    
+    <ul>
+        <% for (let character of characters) { %>
+        <li><%= character.name %></li>
+        <% } %>
+    </ul>
+
 <!-- ======================================================================= -->
 
 <%- include('footer.html') -%>
