@@ -10,7 +10,6 @@ const router = express.Router();
 router.get('/', (request, response) => {
     // response.send('Hello Homepage !!');
 
-
     const fruits = ['Pommes', 'Poires', 'Bananes'];
 
     response.render('homepage', {
